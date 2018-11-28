@@ -1,5 +1,6 @@
 package com.viki.nougat.Queue;
 
+//循环队列
 public class LoopQueue<E> implements Queue<E> {
     private E[] data;
     private int front,tail;

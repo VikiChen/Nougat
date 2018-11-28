@@ -2,6 +2,8 @@ package com.viki.nougat.Queue;
 
 import com.viki.nougat.Array.Array;
 
+
+//基于数组实现队列
 public class ArrayQueue<E> implements Queue<E> {
 
     private Array<E> array;

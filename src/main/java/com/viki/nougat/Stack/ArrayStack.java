@@ -2,6 +2,7 @@ package com.viki.nougat.Stack;
 
 import com.viki.nougat.Array.Array;
 
+//基于数组实现栈
 public class ArrayStack<E> implements Stack<E> {
 
     Array<E> array;
